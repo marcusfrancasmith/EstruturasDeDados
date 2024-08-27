@@ -38,4 +38,8 @@ public class UniBHList<T> {
 
         return  builder.toString();
     }
+
+    // Design the other list methods.
+//    Insert at the end, in order, remove at the end,
+//    remove elements by value, search an element.
 }
