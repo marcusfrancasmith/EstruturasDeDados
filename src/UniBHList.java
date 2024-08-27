@@ -4,7 +4,7 @@ public class UniBHList<T> {
     private int totalElements;
 
     public void insertAtBeginning(T value) {
-        Node<T> newNode = new Node<T>(value);
+        Node<T> newNode = new Node<>(value);
         newNode.setNext(firstNode);
         firstNode = newNode;
         totalElements++;

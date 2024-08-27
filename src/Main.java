@@ -11,6 +11,10 @@ public class Main {
 
         System.out.println(myList);
 
+        myList.removeAtBeginning();
+
+        System.out.println(myList);
+
         System.out.println();
     }
 }
